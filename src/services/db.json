@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@user.com",
+      "password": "testUser123"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1",
+      "date": "01JAN25",
+      "time": 1300,
+      "sender": {
+        "employeeId": 22,
+        "name": "John Smith",
+        "department": "Sales"
+      },
+      "title": "Security Issue",
+      "priority": "Low",
+      "message": "Security Patch",
+      "status": "Unopened"
+    },
+    {
+      "id": "2",
+      "date": "03JAN25",
+      "time": 1030,
+      "sender": {
+        "employeeId": 33,
+        "name": "Jane Doe",
+        "department": "Designs"
+      },
+      "title": "CPU #3",
+      "priority": "Medium",
+      "message": "CPU #3 is down again, we are ok but need it fixed or replaced by next Monday",
+      "status": "Unopened"
+    },
+    {
+      "id": "3",
+      "date": "05JAN25",
+      "time": 1415,
+      "sender": {
+        "employeeId": 12,
+        "name": "Jimmy Chu",
+        "department": "Marketing"
+      },
+      "title": "Mouse batteries",
+      "priority": "Low",
+      "message": "Just got a message that batteries are running low, 30%. Can you drop some off? No rush at all",
+      "status": "Unopened"
+    },
+    {
+      "id": "dcf9",
+      "sender": {
+        "employeeId": "0945",
+        "name": "tester",
+        "department": "Testing"
+      },
+      "title": "testing form sub",
+      "message": "Having an issue finding IT job",
+      "priority": "Low",
+      "date": [
+        "2025-01-06",
+        "23:58:52.468Z"
+      ],
+      "time": "18:58:52",
+      "status": "Unopened"
+    }
+  ]
+}
