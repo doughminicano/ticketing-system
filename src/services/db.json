@@ -48,23 +48,6 @@
       "priority": "Low",
       "message": "Just got a message that batteries are running low, 30%. Can you drop some off? No rush at all",
       "status": "Unopened"
-    },
-    {
-      "id": "b9c5",
-      "sender": {
-        "employeeId": "dsfsd",
-        "name": "Tester One",
-        "department": "fsdfsdfasdfs"
-      },
-      "title": "dcdsvsadf",
-      "message": "dfsdfsdfasdfasd",
-      "priority": "High",
-      "date": [
-        "2025-01-07",
-        "01:48:40.059Z"
-      ],
-      "time": "20:48:40",
-      "status": "Unopened"
     }
   ]
 }
