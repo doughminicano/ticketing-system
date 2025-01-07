@@ -62,7 +62,7 @@ export default function Ticket() {
   // Fetch tickets on component mount
   useEffect(() => {
     fetchTickets();
-    console.log(ticketL)
+    console.log(ticketL);
   }, [ticketL]);
 
   return (
@@ -114,7 +114,10 @@ export default function Ticket() {
               {/* Actions: Delete and Update */}
               <div className="mt-4 flex gap-4">
                 <button
-                  onClick={() => deleteTicket(ticket.id)}
+                  onClick={(e) => {
+                    e.stopPropagation(); // Prevent triggering the modal
+                    deleteTicket(ticket.id);
+                  }}
                   className="mt-4 bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
                 >
                   Delete

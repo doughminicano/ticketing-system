@@ -52,7 +52,7 @@ export default function Dashboard() {
             <marquee>
               <p>
                 {highPriorityCount > 0
-                  ? `There are ${highPriorityCount} High Priority Tickets in queue. Please respond ASAP!`
+                  ? `Take care of these tickes ASAP`
                   : "No High Priority Tickets at the moment. "}
               </p>
             </marquee>
@@ -67,7 +67,7 @@ export default function Dashboard() {
           <div className="border border-t-0 border-yellow-400 rounded-b bg-yellow-100 px-4 py-3 text-slate-950">
             <p>
               {mediumPriorityCount > 0
-                ? `There are ${mediumPriorityCount} Medium Priority Tickets. Please look into them soon.`
+                ? `Medium Priority Tickets. Please look into them soon.`
                 : "No Medium Priority Tickets at the moment."}
             </p>
           </div>
