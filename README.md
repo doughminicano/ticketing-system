@@ -32,6 +32,14 @@
 <span>yarn run or yarn dev</span>
 <h2>3. Next start your json server under ticket-system/src/services with this command: </h2>
 <span> npx json-server --watch db.json --port 5000	</span>
-<h2>3. Once you download repo, you are going to run yarn</h2>
+<h4>4. Now everything should be running smoothly on your localhost</h4>
+<p>The login page will appear first </p>
+<span>Username = test@user.com</span>
+<span>Password = testUser123</span>
+<p> You should be greeted with the dashboard page and the navbar will be on the left hand side</p>
+
+<a href="www.youtube.com">Video Preview</a>
+
+<h1>Enjoy the project and modify it to make it your own</h1>
 
 </body>
