@@ -35,10 +35,11 @@
 <h4>4. Now everything should be running smoothly on your localhost</h4>
 <p>The login page will appear first </p>
 <span>Username = test@user.com</span>
+<br />
 <span>Password = testUser123</span>
 <p> You should be greeted with the dashboard page and the navbar will be on the left hand side</p>
 
-<a href="www.youtube.com">Video Preview</a>
+<a href="https://ticketing.doughminicano.com">Video Preview</a>
 
 <h1>Enjoy the project and modify it to make it your own</h1>
 
