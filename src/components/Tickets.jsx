@@ -78,7 +78,15 @@ export default function Ticket() {
               transition={{ duration: 0.7 }}
               key={ticket.id}
               className={`bg-gray-800 bg-opacity-10 shadow-lg rounded-lg p-6 mb-4 ${
-                ticket.status === "Completed" ? "border-green-500 border-2" : ""
+                ticket.priority === "High"
+                  ? "border-red-500 border-2"
+                  : ticket.priority === "Medium"
+                  ? "border-yellow-500 border-2"
+                  : ticket.priority === "Low"
+                  ? "border-blue-500 border-2"
+                  : ticket.status === "Completed" && ticket.priority
+                  ? "border-green-500 border-2"
+                  : ""
               }`}
               onClick={() => setSelectedTicket(ticket)}
             >

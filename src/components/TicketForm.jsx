@@ -12,7 +12,7 @@ const TicketForm = () => {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [error, setError] = useState("");
-  const [status, setStatus] = useState("Unopened")
+  const [status, setStatus] = useState("Unopened");
 
   useEffect(() => {
     // Set the current date and time when the component mounts
@@ -45,7 +45,7 @@ const TicketForm = () => {
       priority,
       date,
       time,
-      status
+      status,
     };
 
     try {
@@ -77,7 +77,8 @@ const TicketForm = () => {
 
   return (
     <div className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
-      <h2 className="text-xl font-bold mb-4">Submit a Ticket</h2>
+      <h1 className="text-center text-xl font-bold mb-4">Submit Issues</h1>
+      <h3 className="text-center font-semibold text-gray-400 mb-5">Please submit as much information as possible</h3>
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <form onSubmit={handleSubmit}>
         <div className="mb-4">

@@ -27,10 +27,10 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/issue"
+              href="/form"
               className="block py-2 px-4 rounded hover:animate-pulse hover:text-white mt-20 bg-neutral-50"
             >
-              <p className="text-slate-950 p-2 text-center">Submit Ticket</p>
+              <p className="text-slate-950 p-2 text-center">Ticket Form</p>
             </a>
           </li>
         </ul>

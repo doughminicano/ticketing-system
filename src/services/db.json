@@ -8,6 +8,20 @@
   ],
   "tickets": [
     {
+      "id": "3",
+      "date": "01JAN25",
+      "time": 1900,
+      "sender": {
+        "employeeId": 55,
+        "name": "John Smither",
+        "department": "IT"
+      },
+      "title": "Server Down",
+      "priority": "High",
+      "message": "Server #2 is down, we need it back up ASAP",
+      "status": "Unopened"
+    },
+    {
       "id": "1",
       "date": "01JAN25",
       "time": 1300,
@@ -33,20 +47,6 @@
       "title": "CPU #3",
       "priority": "Medium",
       "message": "CPU #3 is down again, we are ok but need it fixed or replaced by next Monday",
-      "status": "Unopened"
-    },
-    {
-      "id": "3",
-      "date": "05JAN25",
-      "time": 1415,
-      "sender": {
-        "employeeId": 12,
-        "name": "Jimmy Chu",
-        "department": "Marketing"
-      },
-      "title": "Mouse batteries",
-      "priority": "Low",
-      "message": "Just got a message that batteries are running low, 30%. Can you drop some off? No rush at all",
       "status": "Unopened"
     }
   ]

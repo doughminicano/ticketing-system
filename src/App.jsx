@@ -3,7 +3,7 @@ import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/Dashboard";
 import Tickets from "./pages/TicketsPage";
 import Navbar from "./components/Navbar";
-import IssuePage from "./pages/IssuePage";
+import FormPage from "./pages/FormPage";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <Route element={<Navbar />}>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/tickets" element={<Tickets />} />
-          <Route path="/issue" element={<IssuePage />} />
+          <Route path="/form" element={<FormPage />} />
         </Route>
       </Routes>
     </Router>
