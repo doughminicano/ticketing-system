@@ -37,6 +37,7 @@
 <span>Username = test@user.com</span>
 <br />
 <span>Password = testUser123</span>
+<br />
 <p> You should be greeted with the dashboard page and the navbar will be on the left hand side</p>
 
 <a href="https://ticketing.doughminicano.com">Video Preview</a>
